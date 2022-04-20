@@ -1,0 +1,184 @@
+@font-face {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 900;
+  src: local("Pretendard"), url("./mayo/Pretendard-Black.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Pretendard"),
+    url("./mayo/Pretendard-ExtraBold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Pretendard"), url("./mayo/Pretendard-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Pretendard"),
+    url("./mayo/Pretendard-SemiBold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Pretendard"),
+    url("./mayo/Pretendard-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Pretendard"),
+    url("./mayo/Pretendard-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Pretendard"), url("./mayo/Pretendard-Light.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 200;
+  src: local("Pretendard"),
+    url("./mayo/Pretendard-ExtraLight.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 100;
+  src: local("Pretendard"), url("./mayo/Pretendard-Thin.woff2") format("woff2");
+}
+@font-face {
+  font-family: "D2Coding";
+  font-style: normal;
+  font-weight: normal;
+  src: local("D2Coding"), url("./mayo/D2Coding.woff2") format("woff2");
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+*::selection {
+  color: #ddd;
+}
+
+body {
+  font-family: "Pretendard", "Open Sans", "Clear Sans", "Helvetica Neue",
+    Helvetica, Arial, "Segoe UI Emoji", sans-serif;
+  color: rgb(51, 51, 51);
+  line-height: 1.6;
+}
+
+:root {
+  --active-file-bg-color: #555;
+  --select-text-bg-color: #444;
+}
+
+#typora-sidebar {
+  background-color: #333;
+}
+
+.info-panel-tab-title {
+  color: #fff;
+}
+
+.active-tab-files #info-panel-tab-file .info-panel-tab-border,
+.active-tab-outline #info-panel-tab-outline .info-panel-tab-border {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active-tab-files #info-panel-tab-file .info-panel-tab-border::before,
+.active-tab-outline #info-panel-tab-outline .info-panel-tab-border::before {
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+#file-library-list-children {
+  color: #fff;
+}
+
+#sidebar-files-menu {
+  background-color: #333;
+}
+
+.file-action-item {
+  color: #fff;
+}
+
+.file-list-item {
+  border-bottom: none;
+  transition: background-color 0.2s ease;
+}
+
+.file-list-item:hover {
+  background-color: #444;
+}
+
+.sidebar-footer {
+  border-top: none;
+}
+
+.sidebar-footer-item {
+  transition: 0.2s ease;
+}
+
+.sidebar-footer-item:hover {
+  background: #444;
+  color: #fff;
+}
+
+.sidebar-content {
+  color: #fff;
+}
+
+.outline-h4,
+.outline-h5 {
+  color: #ddd;
+}
+
+.outline-item {
+  transition: background-color 0.2s ease;
+}
+
+.outline-item:hover {
+  background: #444;
+}
+
+.no-collapse-outline .outline-item {
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+
+#write {
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+code {
+  font-family: "D2Coding";
+  padding: 0 5px;
+  background: #ddd;
+  border-radius: 3px;
+}
+
+blockquote {
+  border-left: 3px solid #ddd;
+  padding-left: 1rem;
+}

@@ -65,7 +65,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 14px;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -82,6 +82,7 @@ body {
 
 :root {
   --active-file-bg-color: #555;
+  --active-file-text-color: #ddd;
   --select-text-bg-color: #444;
 }
 
@@ -181,4 +182,21 @@ code {
 blockquote {
   border-left: 3px solid #ddd;
   padding-left: 1rem;
+}
+
+a {
+  color: #222;
+}
+
+th {
+  background: #fff;
+}
+
+th,
+td {
+  padding: 0.5rem 0.5rem;
+}
+
+tr:nth-child(odd) {
+  background: #efefef;
 }

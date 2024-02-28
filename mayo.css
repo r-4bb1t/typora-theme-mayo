@@ -1,3 +1,7 @@
+@page {
+  size: letter;
+  margin: 0.25in;
+}
 @font-face {
   font-family: "Pretendard";
   font-style: normal;
@@ -168,8 +172,8 @@ body {
 }
 
 #write {
-  padding-left: 90px;
-  padding-right: 90px;
+  padding-left: 45px;
+  padding-right: 45px;
 }
 
 code {
@@ -188,6 +192,11 @@ a {
   color: #222;
 }
 
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+
 th {
   background: #fff;
 }
@@ -195,8 +204,45 @@ th {
 th,
 td {
   padding: 0.5rem 0.5rem;
+  border: 1px solid #ccc;
 }
 
 tr:nth-child(odd) {
   background: #efefef;
+}
+
+.CodeMirror pre {
+  background: #f0f0f0 !important;
+  padding: 4px !important;
+}
+
+/* li {
+  line-height: 1.2;
+}
+
+h3 {
+  margin-bottom: -10px;
+} */
+
+.ty-sidebar-search-panel {
+}
+
+#file-library-search-input {
+  background-color: transparent;
+  color: #f0f0f0;
+}
+
+#file-library-search-input::placeholder {
+  color: #f0f0f088;
+}
+
+#sidebar-files-menu.dropdown-menu > li > a {
+  color: inherit !important;
+}
+
+#sidebar-files-menu {
+  bottom: 32px;
+  background: #f0f0f011;
+  border: none;
+  box-shadow: none;
 }

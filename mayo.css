@@ -62,10 +62,10 @@
   src: local("Pretendard"), url("./mayo/Pretendard-Thin.woff2") format("woff2");
 }
 @font-face {
-  font-family: "D2Coding";
+  font-family: "ubuntu mono";
   font-style: normal;
   font-weight: normal;
-  src: local("D2Coding"), url("./mayo/D2Coding.woff2") format("woff2");
+  src: local("ubuntu mono"), url("./mayo/ubuntu-mono.woff2") format("woff2");
 }
 
 html {
@@ -177,7 +177,7 @@ body {
 }
 
 code {
-  font-family: "D2Coding";
+  font-family: "ubuntu mono", monospace;
   padding: 0 5px;
   background: #ddd;
   border-radius: 3px;

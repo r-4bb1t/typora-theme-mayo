@@ -178,9 +178,11 @@ body {
 
 code {
   font-family: "ubuntu mono", monospace;
-  padding: 0 5px;
+  padding: 2px 5px;
   background: #ddd;
+  font-weight: 500;
   border-radius: 3px;
+  border: 1px solid #ccc;
 }
 
 blockquote {
